@@ -17,7 +17,7 @@ Then open a web browser and navigate to the following page: http://localhost:300
 ## Evaluating Other Approaches
 Change the import statement (line 2) in the dog-web-api.js file depending on which code you want to use:
 ```javascript
-const dogAPI = require('./callback'); // for callbacks
-const dogAPI = require('./promise'); // for promise objects
-const dogAPI = require('./async-await'); // for async await pattern
+const dogAPI = require('./api/callback'); // for callbacks
+const dogAPI = require('./api/promise'); // for promise objects
+const dogAPI = require('./api/async-await'); // for async await pattern
 ```
