@@ -1,5 +1,5 @@
 const express = require('express');
-const dogAPI = require('./callback');
+const dogAPI = require('./api/callback');
 
 const app = express();
 const port = 3000;

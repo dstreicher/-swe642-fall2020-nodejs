@@ -2,8 +2,9 @@
   "name": "presentation",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node dog-web-api.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
